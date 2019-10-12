@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def mappingNum(column):
     arr = column.unique()
     index = np.argwhere(arr == '?')

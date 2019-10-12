@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa5c1177-4790-43a3-a520-c43aeb6b236b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Road-Accident-Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Road-Accident-Analysis.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learningAlgorithms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pre_Process/handlingMissingData.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pre_Process/handlingMissingData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pre_Process/word2num.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pre_Process/word2num.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/feature_selection.py" beforeDir="false" afterPath="$PROJECT_DIR$/feature_selection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -225,7 +226,8 @@
       <option name="presentableId" value="Default" />
       <updated>1567146066188</updated>
       <workItem from="1570861765328" duration="243000" />
-      <workItem from="1570883899926" duration="12884000" />
+      <workItem from="1570883899926" duration="13541000" />
+      <workItem from="1570899632783" duration="1062000" />
     </task>
     <servers />
   </component>
@@ -245,18 +247,7 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Road_Accident_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1570896743939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Road_Accident_Analysis$main.coverage" NAME="main Coverage Results" MODIFIED="1570900670345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

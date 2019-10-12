@@ -1,10 +1,12 @@
-from typing import List, Any
-
 from Data_Retrieve import makeDataset
 from Pre_Process import word2num
 from Pre_Process import handlingMissingData as md
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report
+
 import pandas as pd
 import feature_selection as fs
+import learningAlgorithms as algo
 import warnings
 
 warnings.filterwarnings("ignore")
@@ -43,4 +45,19 @@ intersectionFeature = fs.findIntersectionFeature(Xfeature, commonFeatures)
 for feature in intersectionFeature:
     X = X.drop(feature, axis=1)
 
-print("success")
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.3)
+
+model = algo.decesionTree(X_train, Y_train)
+pred = model.predict(X_test)
+print((classification_report(Y_test, pred)))
+
+
+model = algo.naiveBayes(X_train, Y_train)
+pred = model.predict(X_test)
+print((classification_report(Y_test, pred)))
+
+
+model = algo.adaBoost(X_train, Y_train)
+pred = model.predict(X_test)
+print((classification_report(Y_test, pred)))
+
